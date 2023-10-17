@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: larger;
+        }
+        p::first-line{
+            background-color: coral;
+        }
+        p::selection{
+            background-color: lime;
+        }
+        p::before{
+            content: "@@@@@@@@@@@@@@@";
+        }
+        p::after{
+            font-size: larger;
+            content: "@@@@@@@@@@@@@@@";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit odit autem ea sed vel soluta laborum impedit, repellendus praesentium fuga quasi ducimus deserunt dicta consequatur labore et alias earum numquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit odit autem ea sed vel soluta laborum impedit, repellendus praesentium fuga quasi ducimus deserunt dicta consequatur labore et alias earum numquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit odit autem ea sed vel soluta laborum impedit, repellendus praesentium fuga quasi ducimus deserunt dicta consequatur labore et alias earum numquam.</p>
+    </div>
+</body>
+</html>
