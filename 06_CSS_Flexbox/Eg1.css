@@ -1,0 +1,51 @@
+#id1, .c1{
+    border: 2px solid blue;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.c1:nth-child(1){
+    flex: 2;
+}
+#id2{
+    display: flex;
+}
+
+.c2{
+    border: 2px solid crimson;
+    height: 300px;
+    flex: 1;
+    margin: 5px;
+}
+
+/* lecturer solution  */
+
+/* #id3{
+    display: flex;
+}
+
+.c3{
+    border: 2px solid blue;
+    height: 300px;
+    flex: 1;
+    margin: 5px;
+} */
+
+/* friend suggestion */
+
+#id3{
+    display: flex;
+    width: 60%;
+    margin: auto;
+
+}
+
+.c3{
+    border: 2px solid blue;
+    height: 300px;
+    flex: 1;
+    margin: 10px;
+}
